@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: wheat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            border-radius: 10px;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #ddd;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .profile-header img {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .profile-header b {
+            display: block;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            width: 80%;
+            max-width: 600px;
+            margin: 30px 0;
+        }
+
+        .skills h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills ul li {
+            margin: 10px;
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills ul li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <ul class="navbar">
+            <li>
+                <a target="main" href="Resume.html">Resume</a> 
+            </li>
+            <li>
+                <a target="main" href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a target="main" href="about.html">About</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="profile-header">
+        <b>Hello &#128515; My name is Bhoomika M J, working for Dover India</b>
+        <img src="Images/Bhoomika.jpg" alt="Profile pic" width="150px" height="150px"/>
+    </section>
+
+    <section class="skills">
+        <h1>Skill Set</h1>
+        <ul>
+            <li>
+                <img src="Images/java-icon.jpg" alt="Java">
+                JAVA
+            </li>
+            <li>
+                <img src="Images/springboot-icon.jpg" alt="Springboot">
+                Springboot
+            </li>
+            <li>
+                <img src="Images/python-icon.jpg" alt="Python">
+                Python
+            </li>
+            <li>
+                <img src="Images/ai-ml-icon.jpg" alt="AI & ML">
+                AI & ML
+            </li>
+            <li>
+                <img src="Images/csharp-icon.png" alt="C#">
+                C#
+            </li>
+            <li>
+                <img src="Images/angular-icon.jpg">
+                Angular
+            </li>
+        </ul>
+    </section>
+    <section class="section-container experience">
+        <h1 >Work Experience</h1>
+        <ul>
+            <li>
+                <h3><b>Dover India</b></h3>
+                <p><b>Software Engineer | Jan 2020 - Present</b></p>
+                <p>Worked on developing and maintaining web applications using <b>Java</b>, <b>Spring Boot</b>, and <b>Angular</b>. Involved in end-to-end project lifecycle from requirement gathering to deployment.</p>
+            </li>
+            <li>
+                <h3><b>XYZ Company</b></h3>
+                <p><b>Junior Developer | Aug 2022 - Dec 2023</b></p>
+                <p>Developed internal tools and contributed to various web development projects. Gained experience in <b>Python</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.</p>
+            </li>
+        </ul>
+      
+</body>
+</html>
